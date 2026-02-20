@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://justinkelly.github.io/fakturo.co"
 title = "Fakturo"
 theme = "fakturo"
 [[menu.main]]
@@ -17,3 +17,7 @@ weight = 30
 name = "Blog"
 url = "/posts/"
 weight = 40
+git push -u origin main
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
