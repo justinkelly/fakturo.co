@@ -1,4 +1,4 @@
-baseURL = "https://justinkelly.github.io/fakturo.co"
+baseURL = "https://www.fakturo.co"
 title = "Fakturo"
 theme = "fakturo"
 [[menu.main]]
