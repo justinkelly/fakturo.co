@@ -1,0 +1,18 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#F8FAFC" rx="20"/>
+  <rect x="250" y="100" width="300" height="250" rx="15" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#1E293B">AEAT Regulations</text>
+  
+  <!-- AEAT Icon (Building) -->
+  <rect x="300" y="240" width="200" height="60" fill="#334155"/>
+  <rect x="320" y="180" width="160" height="60" fill="#475569"/>
+  <rect x="350" y="140" width="100" height="40" fill="#64748B"/>
+  
+  <rect x="375" y="260" width="50" height="40" fill="#1E293B"/>
+  
+  <line x1="330" y1="200" x2="350" y2="200" stroke="white" stroke-width="4"/>
+  <line x1="450" y1="200" x2="470" y2="200" stroke="white" stroke-width="4"/>
+  
+  <circle cx="530" cy="120" r="30" fill="#334155"/>
+  <path d="M515 130 L545 130 L530 110 Z" fill="white"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#EFF6FF" rx="20"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#1E40AF">Service Agencies</text>
+  <rect x="250" y="180" width="120" height="120" rx="10" fill="#3B82F6"/>
+  <rect x="430" y="180" width="120" height="120" rx="10" fill="#3B82F6"/>
+  <rect x="340" y="280" width="120" height="120" rx="10" fill="#3B82F6"/>
+</svg>

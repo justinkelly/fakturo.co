@@ -1,0 +1,10 @@
+services:
+  fakturo-site:
+    build:
+      context: .
+      dockerfile: Dockerfile.publish
+      args:
+        HUGO_BASEURL: http://localhost:8080/
+    ports:
+      - "8080:80"
+    restart: unless-stopped

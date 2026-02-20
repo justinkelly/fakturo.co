@@ -1,0 +1,6 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#F0F9FF" rx="20"/>
+  <rect x="250" y="150" width="300" height="200" rx="10" fill="#0EA5E9"/>
+  <text x="400" y="275" text-anchor="middle" font-family="Inter, sans-serif" font-size="60" font-weight="900" fill="white">IRPF</text>
+  <path d="M500 150 L300 350" stroke="white" stroke-width="2" opacity="0.3"/>
+</svg>

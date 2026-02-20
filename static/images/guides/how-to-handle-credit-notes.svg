@@ -1,0 +1,6 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#FFF1F2" rx="20"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#9F1239">Credit Notes</text>
+  <rect x="300" y="150" width="200" height="250" rx="5" fill="white" stroke="#E11D48" stroke-width="4"/>
+  <text x="400" y="300" text-anchor="middle" font-family="Inter, sans-serif" font-size="100" font-weight="900" fill="#E11D48">-</text>
+</svg>

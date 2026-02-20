@@ -1,0 +1,14 @@
+<svg width="800" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#F0FDF4" rx="20"/>
+  <rect x="150" y="100" width="500" height="300" rx="15" fill="#FFFFFF" stroke="#DCFCE7" stroke-width="2"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#166534">Productivity Boost</text>
+  
+  <!-- Productivity Chart -->
+  <rect x="250" y="320" width="50" height="30" rx="4" fill="#BBF7D0"/>
+  <rect x="320" y="280" width="50" height="70" rx="4" fill="#86EFAC"/>
+  <rect x="390" y="240" width="50" height="110" rx="4" fill="#4ADE80"/>
+  <rect x="460" y="180" width="50" height="170" rx="4" fill="#22C55E"/>
+  
+  <path d="M250 350 L510 160" stroke="#166534" stroke-width="4" stroke-dasharray="10" fill="none"/>
+  <path d="M510 160 L510 180 M510 160 L490 160" stroke="#166534" stroke-width="4" fill="none"/>
+</svg>

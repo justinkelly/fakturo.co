@@ -1,0 +1,6 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#FDF4FF" rx="20"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#701A75">Digital Kit Funding</text>
+  <circle cx="400" cy="280" r="120" fill="#FAE8FF" stroke="#D946EF" stroke-width="4"/>
+  <text x="400" y="320" text-anchor="middle" font-family="Inter, sans-serif" font-size="80" font-weight="900" fill="#D946EF">€€€</text>
+</svg>

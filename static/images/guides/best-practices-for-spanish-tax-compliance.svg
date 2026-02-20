@@ -1,0 +1,6 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#F0FDFA" rx="20"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#0D9488">Tax Compliance Best Practices</text>
+  <rect x="300" y="150" width="200" height="250" rx="10" fill="white" stroke="#0D9488" stroke-width="4"/>
+  <path d="M350 250 L380 280 L450 210" stroke="#0D9488" stroke-width="12" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#EEF2FF" rx="20"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#4338CA">Stripe Payments</text>
+  <rect x="250" y="200" width="300" height="180" rx="20" fill="#6366F1"/>
+  <rect x="250" y="230" width="300" height="40" fill="#4338CA"/>
+  <circle cx="300" cy="320" r="20" fill="#E0E7FF"/>
+  <rect x="450" y="310" width="60" height="20" rx="5" fill="#E0E7FF"/>
+</svg>

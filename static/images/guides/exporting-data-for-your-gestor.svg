@@ -1,0 +1,7 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#F0FDFA" rx="20"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#0D9488">Data for Gestor</text>
+  <path d="M250 150 H350 L400 200 H550 V400 H250 Z" fill="#2DD4BF"/>
+  <rect x="300" y="250" width="200" height="100" fill="white" opacity="0.3"/>
+  <text x="400" y="320" text-anchor="middle" font-family="Inter, sans-serif" font-size="40" font-weight="900" fill="white">CSV</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#EEF2FF" rx="20"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#3730A3">Recurring Payments</text>
+  <circle cx="400" cy="280" r="100" fill="none" stroke="#6366F1" stroke-width="12" stroke-dasharray="20"/>
+  <path d="M480 220 L500 280 L440 260" stroke="#6366F1" stroke-width="12" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#F0FDF4" rx="20"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#166534">Year-End Reports</text>
+  <rect x="300" y="150" width="200" height="250" rx="5" fill="white" stroke="#166534" stroke-width="4"/>
+  <path d="M320 350 L380 280 L420 310 L480 220" stroke="#166534" stroke-width="6" fill="none"/>
+</svg>

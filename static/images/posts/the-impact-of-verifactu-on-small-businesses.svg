@@ -1,0 +1,16 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#F0FDFA" rx="20"/>
+  <rect x="250" y="100" width="300" height="250" rx="15" fill="#FFFFFF" stroke="#CCFBF1" stroke-width="2"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#0D9488">Verifactu Impact</text>
+  
+  <!-- Verifactu QR/Shield Icon -->
+  <path d="M320 180 Q400 120 480 180 V280 Q400 340 320 280 Z" fill="#99F6E4" opacity="0.6"/>
+  <rect x="375" y="210" width="50" height="50" fill="#0D9488"/>
+  <rect x="385" y="220" width="10" height="10" fill="white"/>
+  <rect x="405" y="220" width="10" height="10" fill="white"/>
+  <rect x="385" y="240" width="10" height="10" fill="white"/>
+  <rect x="405" y="240" width="10" height="10" fill="white" opacity="0.5"/>
+  
+  <circle cx="530" cy="120" r="30" fill="#14B8A6"/>
+  <path d="M515 120 L525 130 L545 110" stroke="white" stroke-width="6" fill="none"/>
+</svg>

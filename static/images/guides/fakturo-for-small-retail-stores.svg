@@ -1,0 +1,7 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#FEFCE8" rx="20"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#854D0E">Small Retail Stores</text>
+  <rect x="300" y="250" width="200" height="150" fill="#EAB308"/>
+  <path d="M280 250 L520 250 L400 150 Z" fill="#CA8A04"/>
+  <rect x="375" y="320" width="50" height="80" fill="white" opacity="0.3"/>
+</svg>

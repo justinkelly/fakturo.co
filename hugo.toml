@@ -1,0 +1,19 @@
+baseURL = "http://localhost:1313"
+title = "Fakturo"
+theme = "fakturo"
+[[menu.main]]
+name = "Features"
+url = "/features/"
+weight = 10
+[[menu.main]]
+name = "Compliance"
+url = "/verifactu/"
+weight = 20
+[[menu.main]]
+name = "Guides"
+url = "/guides/"
+weight = 30
+[[menu.main]]
+name = "Blog"
+url = "/posts/"
+weight = 40

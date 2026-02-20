@@ -1,0 +1,12 @@
+# Build stage
+FROM klakegg/hugo:ext-alpine AS builder
+ARG HUGO_BASEURL=http://localhost:8080/
+COPY . /src
+WORKDIR /src
+RUN hugo --minify --destination public --baseURL ${HUGO_BASEURL}
+
+# Final stage
+FROM nginx:alpine
+COPY --from=builder /src/public /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

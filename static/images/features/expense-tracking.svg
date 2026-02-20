@@ -1,0 +1,31 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" rx="20" fill="#FEF2F2"/>
+  
+  <!-- Content Area -->
+  <rect x="200" y="80" width="400" height="340" rx="12" fill="#FFFFFF" stroke="#FECACA" stroke-width="2"/>
+  
+  <!-- List of Expenses -->
+  <rect x="220" y="110" width="360" height="40" rx="8" fill="#FEE2E2"/>
+  <rect x="235" y="125" width="80" height="10" rx="5" fill="#EF4444"/>
+  <text x="500" y="135" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#991B1B">€45.00</text>
+  
+  <rect x="220" y="160" width="360" height="40" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="235" y="175" width="100" height="10" rx="5" fill="#94A3B8"/>
+  <text x="500" y="185" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#1E293B">€120.25</text>
+  
+  <rect x="220" y="210" width="360" height="40" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="235" y="225" width="90" height="10" rx="5" fill="#94A3B8"/>
+  <text x="500" y="235" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#1E293B">€15.90</text>
+  
+  <!-- Receipt Mockup -->
+  <rect x="420" y="280" width="120" height="100" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2" transform="rotate(5 420 280)"/>
+  <rect x="440" y="300" width="80" height="5" rx="2" fill="#E2E8F0" transform="rotate(5 420 280)"/>
+  <rect x="440" y="315" width="60" height="5" rx="2" fill="#E2E8F0" transform="rotate(5 420 280)"/>
+  <circle cx="480" cy="350" r="15" fill="#EF4444" opacity="0.1" transform="rotate(5 420 280)"/>
+  
+  <!-- Floating Stats Card -->
+  <rect x="220" y="280" width="150" height="100" rx="12" fill="#1A202C"/>
+  <text x="295" y="320" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#A0AEC0">Monthly Expenses</text>
+  <text x="295" y="350" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">€1,450.00</text>
+</svg>

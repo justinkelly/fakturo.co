@@ -1,0 +1,48 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" rx="20" fill="#F8FAFC"/>
+  
+  <!-- Main Dashboard View -->
+  <rect x="150" y="80" width="500" height="340" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Sidebar -->
+  <rect x="150" y="80" width="120" height="340" rx="12 0 0 12" fill="#1A202C"/>
+  <rect x="165" y="110" width="90" height="24" rx="6" fill="#2D3748"/>
+  <rect x="165" y="150" width="90" height="12" rx="4" fill="#4A5568"/>
+  <rect x="165" y="180" width="90" height="12" rx="4" fill="#4A5568"/>
+  <rect x="165" y="210" width="90" height="12" rx="4" fill="#4A5568"/>
+  
+  <!-- Content Area -->
+  <text x="290" y="120" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#1E293B">Invoices</text>
+  <rect x="540" y="100" width="90" height="32" rx="8" fill="#3B82F6"/>
+  <text x="585" y="121" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">+ Create</text>
+  
+  <!-- Invoice List -->
+  <rect x="290" y="150" width="340" height="40" rx="8" fill="#F1F5F9"/>
+  <rect x="305" y="165" width="80" height="10" rx="5" fill="#94A3B8"/>
+  <rect x="550" y="160" width="60" height="20" rx="10" fill="#C6F6D5"/>
+  <text x="580" y="174" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#2F855A">PAID</text>
+  
+  <rect x="290" y="200" width="340" height="40" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="305" y="215" width="100" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="550" y="210" width="60" height="20" rx="10" fill="#FED7D7"/>
+  <text x="580" y="224" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#C53030">DUE</text>
+  
+  <rect x="290" y="250" width="340" height="40" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="305" y="265" width="90" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="550" y="260" width="60" height="20" rx="10" fill="#FEEBC8"/>
+  <text x="580" y="274" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#9C4221">SENT</text>
+  
+  <!-- Stats -->
+  <rect x="290" y="310" width="100" height="60" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="340" y="335" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#64748B">Revenue</text>
+  <text x="340" y="355" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#1E293B">€12.5k</text>
+  
+  <rect x="410" y="310" width="100" height="60" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="460" y="335" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#64748B">Drafts</text>
+  <text x="460" y="355" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#1E293B">4</text>
+  
+  <rect x="530" y="310" width="100" height="60" rx="10" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="580" y="335" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#64748B">Unpaid</text>
+  <text x="580" y="355" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#E53E3E">€3.2k</text>
+</svg>

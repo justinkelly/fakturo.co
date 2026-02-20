@@ -1,0 +1,47 @@
+{{ define "main" }}
+<section class="hero bg-light"><div class="container hero-grid">
+    <div class="hero-text">
+        <span class="label">Modern Invoicing Platform</span>
+        <h1>All-in-one billing & compliance for your business.</h1>
+        <p>Streamline your invoicing with automated compliance, real-time reporting, and seamless integration with Spanish tax authorities.</p>
+        <div class="btn-group"><a href="/features/" class="btn-primary">Explore Features</a></div>
+    </div>
+    <div class="hero-mockup"><img src="/images/mockup-hero.svg" class="float shadow"></div>
+</div></section>
+
+<section class="home-features bg-white"><div class="container">
+    <div class="section-header"><h2>Professional Core Features</h2></div>
+    <div class="feature-grid">
+        {{ range first 6 (where .Site.RegularPages "Section" "features") }}
+        <div class="feature-card shadow-sm"><img src="{{ .Params.image }}"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Summary }}</p></div>
+        {{ end }}
+    </div>
+</div></section>
+
+<section class="home-compliance bg-light"><div class="container">
+    <div class="section-header"><h2>100% Spanish Compliance</h2></div>
+    <div class="feature-grid">
+        {{ range first 6 (where .Site.RegularPages "Section" "verifactu") }}
+        <div class="feature-card shadow-sm"><img src="{{ .Params.image }}"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Summary }}</p></div>
+        {{ end }}
+    </div>
+</div></section>
+
+<section class="home-guides bg-white"><div class="container">
+    <div class="section-header"><h2>Implementation Guides</h2></div>
+    <div class="feature-grid">
+        {{ range first 6 (where .Site.RegularPages "Section" "guides") }}
+        <div class="feature-card shadow-sm"><img src="{{ .Params.image }}"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Summary }}</p></div>
+        {{ end }}
+    </div>
+</div></section>
+
+<section class="home-blog bg-light"><div class="container">
+    <div class="section-header"><h2>Latest Insights</h2></div>
+    <div class="feature-grid">
+        {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+        <div class="feature-card shadow-sm"><img src="{{ .Params.image }}"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></div>
+        {{ end }}
+    </div>
+</div></section>
+{{ end }}

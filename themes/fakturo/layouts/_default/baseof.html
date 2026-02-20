@@ -1,0 +1,8 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>{{ .Title }} | Fakturo</title><link rel="stylesheet" href="/css/style.css"></head><body><header><nav class="container">
+<div class="nav-left"><a href="/"><img src="/images/logo.svg" height="50"></a></div>
+<div class="nav-right"><ul class="nav-links">{{ range .Site.Menus.main }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}<li><a href="/signup/" class="btn-primary-sm">Sign Up</a></li></ul></div>
+</nav></header><main>{{ block "main" . }}{{ end }}
+{{ if ne .RelPermalink "/signup/" }}
+<section class="global-cta bg-light"><div class="container text-center"><h2>Ready to transform your invoicing?</h2><div class="mt-30"><a href="/signup/" class="btn-primary">Start Your Free Trial</a></div></div></section>
+{{ end }}
+</main><footer><div class="container"><p>Built for Spain &copy; 2025.</p></div></footer></body></html>

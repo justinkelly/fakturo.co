@@ -1,0 +1,1 @@
+{{ define "main" }}<div class="container mt-40"><h1>{{ .Title }}</h1><div class="feature-grid">{{ range .Pages.ByTitle }}<div class="feature-card shadow-sm"><img src="{{ .Params.image }}"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></div>{{ end }}</div></div>{{ end }}

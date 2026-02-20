@@ -1,0 +1,6 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#F0FDF4" rx="20"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#166534">What is Verifactu?</text>
+  <circle cx="400" cy="250" r="120" fill="#DCFCE7" stroke="#86EFAC" stroke-width="4"/>
+  <text x="400" y="300" text-anchor="middle" font-family="Inter, sans-serif" font-size="150" font-weight="900" fill="#22C55E">?</text>
+</svg>

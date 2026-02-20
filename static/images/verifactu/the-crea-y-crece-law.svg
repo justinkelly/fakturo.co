@@ -1,0 +1,6 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#FFFBEB" rx="20"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#92400E">Crea y Crece Law</text>
+  <path d="M200 400 L400 200 L600 350 L750 150" stroke="#F59E0B" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="750" cy="150" r="15" fill="#F59E0B"/>
+</svg>

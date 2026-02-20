@@ -1,0 +1,16 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#EEF2FF" rx="20"/>
+  <rect x="150" y="100" width="500" height="300" rx="15" fill="#FFFFFF" stroke="#E0E7FF" stroke-width="2"/>
+  <text x="400" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#312E81">Europe Digital Future</text>
+  
+  <!-- Europe Icon -->
+  <circle cx="400" cy="250" r="100" fill="#E0E7FF"/>
+  <path d="M350 200 Q400 180 450 220 T500 280 T350 320 Q300 280 350 200" fill="#6366F1" opacity="0.4"/>
+  
+  <circle cx="340" cy="220" r="5" fill="#4338CA"/>
+  <circle cx="460" cy="230" r="5" fill="#4338CA"/>
+  <circle cx="410" cy="300" r="5" fill="#4338CA"/>
+  <circle cx="370" cy="280" r="5" fill="#4338CA"/>
+  
+  <path d="M340 220 L460 230 L410 300 L370 280 Z" stroke="#4338CA" stroke-width="2" fill="none" stroke-dasharray="4"/>
+</svg>
