@@ -1,47 +1,128 @@
 {{ define "main" }}
-<section class="hero bg-light"><div class="container hero-grid">
-    <div class="hero-text">
-        <span class="label">Modern Invoicing Platform</span>
-        <h1>All-in-one billing & compliance for your business.</h1>
-        <p>Streamline your invoicing with automated compliance, real-time reporting, and seamless integration with Spanish tax authorities.</p>
-        <div class="btn-group"><a href="/features/" class="btn-primary">Explore Features</a></div>
+<section class="hero bg-light py-5">
+    <div class="container py-lg-5">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6 text-center text-lg-start">
+                <span class="badge bg-primary px-3 py-2 mb-3 rounded-pill">Modern Invoicing Platform</span>
+                <h1 class="display-3 fw-bold mb-4" style="color: #003366;">All-in-one billing & compliance for your business.</h1>
+                <p class="lead mb-5 text-muted">Streamline your invoicing with automated compliance, real-time reporting, and seamless integration with Spanish tax authorities.</p>
+                <div class="d-grid d-md-flex justify-content-lg-start justify-content-center gap-3">
+                    <a href="/signup/" class="btn btn-success btn-lg px-5 py-3 fw-bold shadow">Start Free Trial</a>
+                    <a href="/features/" class="btn btn-outline-primary btn-lg px-5 py-3 fw-bold">Explore Features</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="hero-mockup mt-4 mt-lg-0">
+                    <img src="/images/mockup-hero.svg" class="img-fluid rounded-4 shadow-lg float-animation w-100" alt="Fakturo Dashboard Mockup">
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="hero-mockup"><img src="/images/mockup-hero.svg" class="float shadow"></div>
-</div></section>
+</section>
 
-<section class="home-features bg-white"><div class="container">
-    <div class="section-header"><h2>Professional Core Features</h2></div>
-    <div class="feature-grid">
-        {{ range first 6 (where .Site.RegularPages "Section" "features") }}
-        <div class="feature-card shadow-sm"><img src="{{ .Params.image }}"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Summary }}</p></div>
-        {{ end }}
+<section class="home-features py-5 bg-white">
+    <div class="container py-4">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold mb-3">Professional Core Features</h2>
+            <div class="bg-primary mx-auto mb-4" style="height: 4px; width: 60px;"></div>
+        </div>
+        <div class="row g-4 mt-4">
+            {{ range first 6 (where .Site.RegularPages "Section" "features") }}
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm transition-hover">
+                    <img src="{{ .Params.image }}" class="card-img-top p-4 bg-light" alt="{{ .Title }}">
+                    <div class="card-body p-4">
+                        <h4 class="card-title fw-bold mb-3"><a href="{{ .RelPermalink }}" class="text-decoration-none text-dark">{{ .Title }}</a></h4>
+                        <p class="card-text text-muted">{{ .Summary }}</p>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
     </div>
-</div></section>
+</section>
 
-<section class="home-compliance bg-light"><div class="container">
-    <div class="section-header"><h2>100% Spanish Compliance</h2></div>
-    <div class="feature-grid">
-        {{ range first 6 (where .Site.RegularPages "Section" "verifactu") }}
-        <div class="feature-card shadow-sm"><img src="{{ .Params.image }}"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Summary }}</p></div>
-        {{ end }}
+<section class="home-compliance py-5 bg-light border-top border-bottom">
+    <div class="container py-4">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold mb-3">100% Spanish Compliance</h2>
+            <p class="lead text-muted">Stay ahead of Verifactu, TicketBAI, and SII regulations automatically.</p>
+            <div class="bg-success mx-auto mb-4" style="height: 4px; width: 60px;"></div>
+        </div>
+        <div class="row g-4 mt-4">
+            {{ range first 6 (where .Site.RegularPages "Section" "verifactu") }}
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm transition-hover">
+                    <img src="{{ .Params.image }}" class="card-img-top p-4 bg-white" alt="{{ .Title }}">
+                    <div class="card-body p-4">
+                        <h4 class="card-title fw-bold mb-3"><a href="{{ .RelPermalink }}" class="text-decoration-none text-dark">{{ .Title }}</a></h4>
+                        <p class="card-text text-muted">{{ .Summary }}</p>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
     </div>
-</div></section>
+</section>
 
-<section class="home-guides bg-white"><div class="container">
-    <div class="section-header"><h2>Implementation Guides</h2></div>
-    <div class="feature-grid">
-        {{ range first 6 (where .Site.RegularPages "Section" "guides") }}
-        <div class="feature-card shadow-sm"><img src="{{ .Params.image }}"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Summary }}</p></div>
-        {{ end }}
+<section class="home-guides py-5 bg-white">
+    <div class="container py-4">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold mb-3">Implementation Guides</h2>
+            <div class="bg-info mx-auto mb-4" style="height: 4px; width: 60px;"></div>
+        </div>
+        <div class="row g-4 mt-4">
+            {{ range first 6 (where .Site.RegularPages "Section" "guides") }}
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm transition-hover">
+                    <img src="{{ .Params.image }}" class="card-img-top p-4 bg-light" alt="{{ .Title }}">
+                    <div class="card-body p-4">
+                        <h4 class="card-title fw-bold mb-3"><a href="{{ .RelPermalink }}" class="text-decoration-none text-dark">{{ .Title }}</a></h4>
+                        <p class="card-text text-muted small">{{ .Summary }}</p>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
     </div>
-</div></section>
+</section>
 
-<section class="home-blog bg-light"><div class="container">
-    <div class="section-header"><h2>Latest Insights</h2></div>
-    <div class="feature-grid">
-        {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
-        <div class="feature-card shadow-sm"><img src="{{ .Params.image }}"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></div>
-        {{ end }}
+<section class="home-blog py-5 bg-light border-top">
+    <div class="container py-4">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-5">
+            <h2 class="display-5 fw-bold mb-0">Latest Insights</h2>
+            <a href="/posts/" class="btn btn-outline-primary mt-3 mt-md-0">View All Posts</a>
+        </div>
+        <div class="row g-4">
+            {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
+            <div class="col-lg-4">
+                <div class="card h-100 border-0 shadow-sm transition-hover">
+                    <img src="{{ .Params.image }}" class="card-img-top p-4 bg-white" alt="{{ .Title }}">
+                    <div class="card-body p-4">
+                        <h4 class="card-title fw-bold mb-2"><a href="{{ .RelPermalink }}" class="text-decoration-none text-dark">{{ .Title }}</a></h4>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
     </div>
-</div></section>
+</section>
+
+<style>
+    .transition-hover {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .transition-hover:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    }
+    .float-animation {
+        animation: float 6s ease-in-out infinite;
+    }
+    @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+        100% { transform: translateY(0px); }
+    }
+</style>
 {{ end }}

@@ -1,1 +1,38 @@
-{{ define "main" }}<div class="container mt-40"><h1>{{ .Title }}</h1><div class="feature-grid">{{ range .Pages.ByTitle }}<div class="feature-card shadow-sm"><img src="{{ .Params.image }}"><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></div>{{ end }}</div></div>{{ end }}
+{{ define "main" }}
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold mb-3 text-capitalize">{{ .Title }}</h1>
+        <div class="bg-primary mx-auto" style="height: 4px; width: 60px;"></div>
+    </div>
+
+    <div class="row g-4 mt-4">
+        {{ range .Pages.ByTitle }}
+        <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm transition-hover">
+                {{ if .Params.image }}
+                <img src="{{ .Params.image }}" class="card-img-top p-4 bg-light" alt="{{ .Title }}">
+                {{ end }}
+                <div class="card-body p-4 text-center">
+                    <h4 class="card-title fw-bold mb-3">
+                        <a href="{{ .RelPermalink }}" class="text-decoration-none text-dark stretched-link">{{ .Title }}</a>
+                    </h4>
+                    {{ if .Summary }}
+                    <p class="card-text text-muted small">{{ .Summary }}</p>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+    .transition-hover {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .transition-hover:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    }
+</style>
+{{ end }}
